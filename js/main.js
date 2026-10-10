@@ -1,4 +1,4 @@
-/* Ogrodnictwo Łuczak – interakcje strony */
+/* Ogrodnictwo Małgorzata Łuczak – interakcje strony */
 (function () {
   'use strict';
 
