@@ -1410,4 +1410,5 @@ html.js :is(
 .skip-link:focus { top: 0.75rem; }
 
 .btn-hero--accent { color: var(--primary); }
-.nl-badge{position:absolute;bottom:-30px;}
+.nl-badge{position:absolute;bottom:-30px; pointer-events:none;
+}
