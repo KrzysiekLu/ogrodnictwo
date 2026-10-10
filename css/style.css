@@ -1155,8 +1155,6 @@ strong { font-weight: bolder; }
 .fab-item--retail:hover .fab-item__desc,
 .fab-item--retail:hover .fab-item__chevron { color: var(--primary); }
 
-.fab__foot { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid var(--surface-high); text-align: center; }
-.fab__foot p { font-size: 11px; color: var(--outline); }
 
 .fab__row { display: flex; align-items: center; gap: 0.5rem; }
 .fab__btn {
@@ -1412,3 +1410,4 @@ html.js :is(
 .skip-link:focus { top: 0.75rem; }
 
 .btn-hero--accent { color: var(--primary); }
+.nl-badge{position:absolute;bottom:-30px;}
