@@ -3,26 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ogrodnictwo Małgorzata Łuczak – Chryzantemy doniczkowe prosto od producenta</title>
-  <meta name="description" content="Producent chryzantem doniczkowych – sprzedaż hurtowa dla kwiaciarni i odbiorców oraz detaliczna na miejscu w gospodarstwie. Kalisz i okolice.">
-  <link rel="icon" href="img/logo.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block">
+  <title>Chryzantemy doniczkowe Międzybórz | Ogrodnictwo Łuczak</title>
+  <meta name="description" content="Chryzantemy doniczkowe prosto z naszych tuneli w Międzyborzu. Sprzedaż hurtowa dla kwiaciarni i detaliczna na miejscu. Ponad 25 lat doświadczenia.">
+  <meta name="theme-color" content="#042217">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:site_name" content="Ogrodnictwo Łuczak">
+  <meta property="og:title" content="Chryzantemy doniczkowe Międzybórz | Ogrodnictwo Łuczak">
+  <meta property="og:description" content="Chryzantemy doniczkowe prosto z naszych tuneli. Sprzedaż hurtowa dla kwiaciarni i detaliczna na miejscu w Międzyborzu.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preload" href="fonts/plus-jakarta-sans-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/material-symbols.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/webp" imagesrcset="img/hero-tunel-800.webp 800w, img/hero-tunel.webp 1200w" imagesizes="(min-width: 900px) 62vw, 100vw" fetchpriority="high">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "GardenStore", "name": "Ogrodnictwo Łuczak", "description": "Producent chryzantem doniczkowych. Sprzedaż hurtowa dla kwiaciarni i odbiorców oraz sprzedaż detaliczna na miejscu w gospodarstwie.", "address": {"@type": "PostalAddress", "streetAddress": "ul. Zielonka 19", "postalCode": "56-513", "addressLocality": "Międzybórz", "addressRegion": "dolnośląskie", "addressCountry": "PL"}, "telephone": "+48690273223", "contactPoint": [{"@type": "ContactPoint", "contactType": "sales", "name": "Sprzedaż hurtowa", "telephone": "+48723789751", "areaServed": "PL", "availableLanguage": "pl"}, {"@type": "ContactPoint", "contactType": "sales", "name": "Sprzedaż detaliczna", "telephone": "+48690273223", "areaServed": "PL", "availableLanguage": "pl"}], "paymentAccepted": "Gotówka, BLIK", "knowsAbout": ["chryzantemy doniczkowe", "chryzantemy wielkokwiatowe", "chryzantemy średniokwiatowe", "chryzantemy drobnokwiatowe"]}</script>
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
+<a class="skip-link" href="#main">Przejdź do treści</a>
 
 <!-- ============ HEADER ============ -->
 <header class="header" id="top">
   <div class="container header__inner">
     <div class="header__brand">
-      <img class="header__logo" src="img/logo.jpg" alt="Logo Ogrodnictwo Małgorzata Łuczak">
+      <img class="header__logo" src="img/logo.webp" alt="Logo Ogrodnictwo Łuczak" width="48" height="48">
       <div class="header__brand-text">
-        <a class="header__title" href="#top">Ogrodnictwo Małgorzata Łuczak</a>
-        <span class="header__subtitle">Producent Chryzantem Doniczkowych</span>
+        <a class="header__title" href="#top">Ogrodnictwo Łuczak</a>
       </div>
     </div>
 
@@ -34,13 +42,13 @@
     </nav>
 
     <div class="header__actions">
-      <a class="header-phone header-phone--wholesale" href="tel:+48600000000" title="Zadzwoń - Hurt">
+      <a class="header-phone header-phone--wholesale" href="tel:+48723789751" title="Zadzwoń - Hurt">
         <span class="ms ms-16 header-phone__icon">store</span>
-        <span class="header-phone__text">Hurt: <strong>+48 600 000 000</strong></span>
+        <span class="header-phone__text">Hurt: <strong>+48 723 789 751</strong></span>
       </a>
-      <a class="header-phone header-phone--retail" href="tel:+48601234567" title="Zadzwoń - Detal">
+      <a class="header-phone header-phone--retail" href="tel:+48690273223" title="Zadzwoń - Detal">
         <span class="ms ms-16">call</span>
-        <span class="header-phone__text">Detal: <strong>+48 601 234 567</strong></span>
+        <span class="header-phone__text">Detal: <strong>+48 690 273 223</strong></span>
       </a>
       <button class="header__burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mobile-nav">
         <span class="ms ms-24">menu</span>
@@ -56,19 +64,20 @@
   </nav>
 </header>
 
-<main class="main">
+<main class="main" id="main">
 
   <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="hero__bg">
-      <img src="img/hero.jpg" alt="Nowoczesna szklarnia pełna kwitnących chryzantem doniczkowych w gospodarstwie Ogrodnictwo Małgorzata Łuczak">
-      <div class="hero__gradient"></div>
+      <div class="hero__media">
+        <img src="img/hero-tunel.webp" srcset="img/hero-tunel-800.webp 800w, img/hero-tunel.webp 1200w" sizes="(min-width: 900px) 62vw, 100vw" alt="Tunel pełen kwitnących chryzantem doniczkowych w gospodarstwie Ogrodnictwo Łuczak" width="1200" height="784" fetchpriority="high">
+      </div>
       <div class="hero__glow"></div>
     </div>
     <div class="container hero__inner">
       <div class="hero__content">
-        <h1 class="hero__title">Chryzantemy doniczkowe prosto od producenta</h1>
-        <p class="hero__lead">Najwyższej jakości chryzantemy wielkokwiatowe, drobnokwiatowe i&nbsp;cięte prosto z&nbsp;naszych wielkopolskich szklarni. Prowadzimy sprzedaż hurtową dla kwiaciarni i&nbsp;odbiorców oraz detaliczną na&nbsp;miejscu w&nbsp;gospodarstwie.</p>
+        <h1 class="hero__title">Chryzantemy doniczkowe prosto z naszych tuneli</h1>
+        <p class="hero__lead">Najwyższej jakości chryzantemy wielkokwiatowe, średniokwiatowe i&nbsp;drobnokwiatowe prosto z&nbsp;naszych tuneli. Prowadzimy sprzedaż hurtową dla kwiaciarni i&nbsp;odbiorców oraz detaliczną na&nbsp;miejscu w&nbsp;gospodarstwie.</p>
         <div class="hero__ctas">
           <a class="btn-hero btn-hero--accent" href="#katalog">
             <span class="ms ms-20">yard</span><span>Sprawdź ofertę</span>
@@ -87,8 +96,8 @@
             <span class="stat__label">Własna produkcja</span>
           </div>
           <div class="stat stat--wide">
-            <span class="stat__value stat__value--accent">Własny transport</span>
-            <span class="stat__label">Bezpieczny załadunek</span>
+            <span class="stat__value stat__value--accent">26 wariantów</span>
+            <span class="stat__label">Szeroki asortyment</span>
           </div>
         </div>
       </div>
@@ -98,6 +107,7 @@
   <!-- ============ 3 ATUTY ============ -->
   <section class="section section--surface">
     <div class="container">
+      <h2 class="sr-only">Dlaczego Ogrodnictwo Łuczak</h2>
       <div class="advantages">
         <article class="advantage">
           <div>
@@ -113,15 +123,15 @@
             <h3 class="advantage__title">Szeroki wybór</h3>
             <p class="advantage__text">Bogata paleta barw (biel, żółć, złoto, bordo, fiolet, miedź) oraz wszystkie warianty pokrojowe: drobnokwiatowe, średniokwiatowe i&nbsp;ekskluzywne wielkokwiatowe.</p>
           </div>
-          <div class="advantage__foot advantage__foot--accent"><span class="ms ms-18">check_circle</span><span>Średnice mis od Ø15 do Ø23 cm</span></div>
+          <div class="advantage__foot advantage__foot--accent"><span class="ms ms-18">check_circle</span><span>Pełna paleta barw i&nbsp;kształtów</span></div>
         </article>
         <article class="advantage">
           <div>
             <div class="advantage__icon advantage__icon--primary"><span class="ms ms-26">eco</span></div>
             <h3 class="advantage__title">Wysoka jakość</h3>
-            <p class="advantage__text">Silnie rozkrzewione, regularne, kuliste korony odporne na&nbsp;chłody i&nbsp;deszcz. Stopień rozkwitu jest precyzyjnie zsynchronizowany na&nbsp;przełom października i&nbsp;listopada.</p>
+            <p class="advantage__text">Silnie rozkrzewione, regularne, kuliste korony. Stopień rozkwitu jest precyzyjnie zsynchronizowany na&nbsp;przełom października i&nbsp;listopada.</p>
           </div>
-          <div class="advantage__foot"><span class="ms ms-18">temp_preferences_custom</span><span>Mrozoodporne odmiany sprawdzone w&nbsp;Polsce</span></div>
+          <div class="advantage__foot"><span class="ms ms-18">temp_preferences_custom</span><span>Pełnia kwitnienia na&nbsp;Wszystkich Świętych</span></div>
         </article>
       </div>
     </div>
@@ -161,11 +171,11 @@
               </div>
             </div>
 
-            <div class="filters__group">
-              <span class="filters__label">Wielkość kwiatu</span>
+            <details class="filters__group filter-acc" open>
+              <summary class="filters__label"><span>Wielkość kwiatu</span><span class="filter-acc__value" data-current="size"></span></summary>
               <div class="size-options" data-filter="size">
                 <button type="button" class="size-option is-active" data-value="all">
-                  <span class="size-option__main"><span class="size-option__dot"></span><span>Wszystkie odmiany</span></span>
+                  <span class="size-option__main"><span class="size-option__dot"></span><span>Wszystkie</span></span>
                   <span class="size-option__count" data-count-for="size:all"></span>
                 </button>
                 <button type="button" class="size-option" data-value="sredniokwiatowa">
@@ -177,44 +187,44 @@
                   <span class="size-option__count" data-count-for="size:wielkokwiatowa"></span>
                 </button>
               </div>
-            </div>
+            </details>
 
-            <div class="filters__group">
-              <span class="filters__label">Barwa kwiatu</span>
+            <details class="filters__group filter-acc">
+              <summary class="filters__label"><span>Barwa kwiatu</span><span class="filter-acc__value" data-current="color"></span></summary>
               <div class="color-options" data-filter="color">
                 <button type="button" class="color-option" data-value="bialy">
                   <span class="color-option__main"><span class="swatch swatch--white"></span><span class="color-option__name">Biały / Kremowy</span></span>
-                  <span class="color-option__count" data-count-for="color:bialy" data-suffix=" odm."></span>
+                  <span class="color-option__count" data-count-for="color:bialy"></span>
                 </button>
                 <button type="button" class="color-option" data-value="zolty">
                   <span class="color-option__main"><span class="swatch" style="background:#EAB308"></span><span class="color-option__name">Żółty</span></span>
-                  <span class="color-option__count" data-count-for="color:zolty" data-suffix=" odm."></span>
+                  <span class="color-option__count" data-count-for="color:zolty"></span>
                 </button>
                 <button type="button" class="color-option" data-value="pomaranczowy">
                   <span class="color-option__main"><span class="swatch" style="background:#EA580C"></span><span class="color-option__name">Pomarańczowy / Miedziany</span></span>
-                  <span class="color-option__count" data-count-for="color:pomaranczowy" data-suffix=" odm."></span>
+                  <span class="color-option__count" data-count-for="color:pomaranczowy"></span>
                 </button>
                 <button type="button" class="color-option" data-value="czerwony">
                   <span class="color-option__main"><span class="swatch" style="background:#C81E1E"></span><span class="color-option__name">Czerwony</span></span>
-                  <span class="color-option__count" data-count-for="color:czerwony" data-suffix=" odm."></span>
+                  <span class="color-option__count" data-count-for="color:czerwony"></span>
                 </button>
                 <button type="button" class="color-option" data-value="rozowy">
                   <span class="color-option__main"><span class="swatch" style="background:#EC6FA8"></span><span class="color-option__name">Różowy</span></span>
-                  <span class="color-option__count" data-count-for="color:rozowy" data-suffix=" odm."></span>
+                  <span class="color-option__count" data-count-for="color:rozowy"></span>
                 </button>
                 <button type="button" class="color-option" data-value="fioletowy">
                   <span class="color-option__main"><span class="swatch" style="background:#8E1F6B"></span><span class="color-option__name">Purpurowy / Fioletowy</span></span>
-                  <span class="color-option__count" data-count-for="color:fioletowy" data-suffix=" odm."></span>
+                  <span class="color-option__count" data-count-for="color:fioletowy"></span>
                 </button>
                 <button type="button" class="color-option" data-value="zielony">
                   <span class="color-option__main"><span class="swatch" style="background:#9ACD32"></span><span class="color-option__name">Z zielonym akcentem</span></span>
-                  <span class="color-option__count" data-count-for="color:zielony" data-suffix=" odm."></span>
+                  <span class="color-option__count" data-count-for="color:zielony"></span>
                 </button>
               </div>
-            </div>
+            </details>
 
-            <div class="filters__group">
-              <span class="filters__label">Kształt kwiatu</span>
+            <details class="filters__group filter-acc">
+              <summary class="filters__label"><span>Kształt kwiatu</span><span class="filter-acc__value" data-current="shape"></span></summary>
               <div class="pot-options" data-filter="shape">
                 <button type="button" class="pot-option pot-option--wide is-active" data-value="all">Wszystkie</button>
                 <button type="button" class="pot-option" data-value="dekoracyjny">Dekoracyjny</button>
@@ -222,20 +232,20 @@
                 <button type="button" class="pot-option" data-value="kulisty">Kulisty</button>
                 <button type="button" class="pot-option" data-value="stokrotkowy">Stokrotkowy</button>
               </div>
-            </div>
+            </details>
 
-            <div class="filters__group">
-              <span class="filters__label">Przeznaczenie</span>
+            <details class="filters__group filter-acc">
+              <summary class="filters__label"><span>Przeznaczenie</span><span class="filter-acc__value" data-current="purpose"></span></summary>
               <div class="purpose-options">
                 <label class="purpose-option"><input type="checkbox" name="purpose" value="hurt" checked><span>Sprzedaż Hurtowa (B2B)</span></label>
-                <label class="purpose-option"><input type="checkbox" name="purpose" value="detal" checked><span>Zakupy Detaliczne (Szklarnia)</span></label>
+                <label class="purpose-option"><input type="checkbox" name="purpose" value="detal" checked><span>Zakupy Detaliczne (Gospodarstwo)</span></label>
               </div>
-            </div>
+            </details>
 
             <div class="filters__group">
               <div class="filters__summary">
                 <span class="filters__summary-label">Aktywne filtry:</span>
-                <span class="filters__summary-value" id="filters-summary">6 odmian</span>
+                <span class="filters__summary-value" id="filters-summary">26 wariantów</span>
               </div>
               <button type="button" class="filters__apply" id="filters-apply">Zastosuj filtry</button>
             </div>
@@ -247,647 +257,416 @@
           <div class="toolbar">
             <div class="toolbar__info">
               <span class="toolbar__dot"></span>
-              <span>Dostępne odmiany w&nbsp;sezonie: <strong id="results-count">6 z 6 pozycji</strong></span>
+              <span>Dostępne w&nbsp;sezonie: <strong id="results-count">26 z 26 wariantów</strong></span>
             </div>
             <div class="toolbar__sort">
               <label class="toolbar__sort-label" for="sort-select">Sortuj:</label>
               <select id="sort-select" class="toolbar__select">
                 <option value="default">Alfabetycznie (A–Z)</option>
-                <option value="new">Nowości najpierw</option>
                 <option value="size">Wielkość kwiatu (średnie → duże)</option>
                 <option value="size-desc">Wielkość kwiatu (duże → średnie)</option>
               </select>
             </div>
           </div>
 
-          <div class="products" id="products">
-            <article class="product" data-order="1" data-size="wielkokwiatowa" data-color="bialy" data-shape="igielkowy" data-new="0" data-purpose="hurt detal">
+          <div class="carousel" id="carousel">
+          <div class="products" id="products" tabindex="0" aria-label="Katalog odmian – przewijany poziomo">
+            <article class="product" data-order="1" data-size="wielkokwiatowa" data-color="bialy" data-shape="igielkowy" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/alaka-white.jpg" alt="Chryzantema wielkokwiatowa Alaka White w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/alaka-white.webp" srcset="img/odmiany/alaka-white-400.webp 400w, img/odmiany/alaka-white.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Alaka White w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Igiełkowy</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Alaka White</h3>
-                  <p class="product__desc">Kwiat biały, igiełkowy. Duże, promieniste kwiatostany na&nbsp;tle ciemnych liści.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biała</span><span class="product__bullet">•</span><span>Kwiat igiełkowy</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat biały, igiełkowy.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="2" data-size="wielkokwiatowa" data-color="zolty" data-shape="igielkowy" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="2" data-size="wielkokwiatowa" data-color="zolty" data-shape="igielkowy" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/alaka-yellow.jpg" alt="Chryzantema wielkokwiatowa Alaka Yellow w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/alaka-yellow.webp" srcset="img/odmiany/alaka-yellow-400.webp 400w, img/odmiany/alaka-yellow.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Alaka Yellow w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Igiełkowy</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Alaka Yellow</h3>
-                  <p class="product__desc">Kwiat żółty, igiełkowy. Słoneczna barwa i&nbsp;duże, promieniste kwiatostany.</p>
-                  <div class="product__meta">
-                    <span>Barwa: żółta</span><span class="product__bullet">•</span><span>Kwiat igiełkowy</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat żółty, igiełkowy.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="3" data-size="sredniokwiatowa" data-color="rozowy" data-shape="stokrotkowy" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="3" data-size="sredniokwiatowa" data-color="rozowy" data-shape="stokrotkowy" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/amara.jpg" alt="Chryzantema średniokwiatowa Amara w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/amara.webp" srcset="img/odmiany/amara-400.webp 400w, img/odmiany/amara.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Amara w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Stokrotkowy</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Amara</h3>
-                  <p class="product__desc">Kwiat pojedynczy, stokrotkowy – jasnoróżowe płatki z&nbsp;ciemnym, purpurowym środkiem.</p>
-                  <div class="product__meta">
-                    <span>Barwa: jasnoróżowa</span><span class="product__bullet">•</span><span>Kwiat stokrotkowy</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat pojedynczy, stokrotkowy, jasnoróżowy.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="4" data-size="sredniokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="4" data-size="sredniokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/amour.jpg" alt="Chryzantema średniokwiatowa Amour w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/amour.webp" srcset="img/odmiany/amour-400.webp 400w, img/odmiany/amour.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Amour w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Amour</h3>
-                  <p class="product__desc">Kwiat biały, dekoracyjny. Nowa selekcja sprawdzonej odmiany o&nbsp;zwartym, regularnym pokroju.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biała</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat biały, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="5" data-size="sredniokwiatowa" data-color="pomaranczowy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="5" data-size="sredniokwiatowa" data-color="pomaranczowy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/artistic-pomona.jpg" alt="Chryzantema średniokwiatowa Artistic Pomona w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/artistic-pomona.webp" srcset="img/odmiany/artistic-pomona-400.webp 400w, img/odmiany/artistic-pomona.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Artistic Pomona w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Artistic Pomona</h3>
-                  <p class="product__desc">Kwiat pomarańczowy, bardzo duży jak na&nbsp;odmianę średniokwiatową. Intensywna, ciepła barwa widoczna z&nbsp;daleka.</p>
-                  <div class="product__meta">
-                    <span>Barwa: pomarańczowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat pomarańczowy, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="6" data-size="sredniokwiatowa" data-color="fioletowy" data-shape="dekoracyjny" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="6" data-size="sredniokwiatowa" data-color="fioletowy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/cure-purple.jpg" alt="Chryzantema średniokwiatowa Cure Purple w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/cure-purple.webp" srcset="img/odmiany/cure-purple-400.webp 400w, img/odmiany/cure-purple.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Cure Purple w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Cure Purple</h3>
-                  <p class="product__desc">Kwiat purpurowy, dekoracyjny. Gęsta, kulista korona o&nbsp;głębokim, nasyconym kolorze.</p>
-                  <div class="product__meta">
-                    <span>Barwa: purpurowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat purpurowy, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="7" data-size="wielkokwiatowa" data-color="pomaranczowy" data-shape="igielkowy" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="7" data-size="wielkokwiatowa" data-color="pomaranczowy" data-shape="igielkowy" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/elina-peach.jpg" alt="Chryzantema wielkokwiatowa Elina Peach w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/elina-peach.webp" srcset="img/odmiany/elina-peach-400.webp 400w, img/odmiany/elina-peach.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Elina Peach w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Igiełkowy</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Elina Peach</h3>
-                  <p class="product__desc">Kwiat brzoskwiniowy, duży, igiełkowy. Lekki, efektowny pokrój.</p>
-                  <div class="product__meta">
-                    <span>Barwa: brzoskwiniowa</span><span class="product__bullet">•</span><span>Kwiat igiełkowy</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat brzoskwiniowy, duży, igiełkowy.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="8" data-size="wielkokwiatowa" data-color="rozowy" data-shape="igielkowy" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="8" data-size="wielkokwiatowa" data-color="rozowy" data-shape="igielkowy" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/elina-pink.jpg" alt="Chryzantema wielkokwiatowa Elina Pink w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/elina-pink.webp" srcset="img/odmiany/elina-pink-400.webp 400w, img/odmiany/elina-pink.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Elina Pink w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Igiełkowy</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Elina Pink</h3>
-                  <p class="product__desc">Kwiat różowy, duży, igiełkowy. Smukłe płatki o&nbsp;intensywnej barwie.</p>
-                  <div class="product__meta">
-                    <span>Barwa: różowa</span><span class="product__bullet">•</span><span>Kwiat igiełkowy</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat różowy, duży, igiełkowy.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="9" data-size="wielkokwiatowa" data-color="bialy" data-shape="igielkowy" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="9" data-size="wielkokwiatowa" data-color="bialy" data-shape="igielkowy" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/elina-white.jpg" alt="Chryzantema wielkokwiatowa Elina White w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/elina-white.webp" srcset="img/odmiany/elina-white-400.webp 400w, img/odmiany/elina-white.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Elina White w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Igiełkowy</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Elina White</h3>
-                  <p class="product__desc">Kwiat biały, duży, igiełkowy. Jasne kwiaty z&nbsp;ciepłym, żółtawym środkiem.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biała</span><span class="product__bullet">•</span><span>Kwiat igiełkowy</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat biały, duży, igiełkowy.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="10" data-size="wielkokwiatowa" data-color="bialy zielony" data-shape="kulisty" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="10" data-size="wielkokwiatowa" data-color="bialy zielony" data-shape="kulisty" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/greenstar.jpg" alt="Chryzantema wielkokwiatowa Greenstar w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/greenstar.webp" srcset="img/odmiany/greenstar-400.webp 400w, img/odmiany/greenstar.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Greenstar w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Kulisty</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Greenstar</h3>
-                  <p class="product__desc">Kwiat biały o&nbsp;zielonych brzegach, kulisty, oryginalny. Regularne, pełne kule.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biało-zielona</span><span class="product__bullet">•</span><span>Kwiat kulisty</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat biały o&nbsp;zielonych brzegach, kulisty.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="11" data-size="wielkokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="11" data-size="wielkokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/intrepid.jpg" alt="Chryzantema wielkokwiatowa Intrepid w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/intrepid.webp" srcset="img/odmiany/intrepid-400.webp 400w, img/odmiany/intrepid.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Intrepid w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Intrepid</h3>
-                  <p class="product__desc">Kwiat kremowy, dekoracyjny. Duże, pełne kwiatostany na&nbsp;tle ciemnozielonych liści.</p>
-                  <div class="product__meta">
-                    <span>Barwa: kremowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat kremowy, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="12" data-size="drobnokwiatowa" data-color="fioletowy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="12" data-size="drobnokwiatowa" data-color="fioletowy" data-shape="dekoracyjny" data-purpose="detal">
               <div class="product__media">
-                <img src="img/odmiany/jasoda-purple.jpg" alt="Chryzantema drobnokwiatowa Jasoda Purple w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/jasoda-purple.webp" srcset="img/odmiany/jasoda-purple-400.webp 400w, img/odmiany/jasoda-purple.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema drobnokwiatowa Jasoda Purple w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Drobnokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Jasoda Purple</h3>
-                  <p class="product__desc">Drobne, purpurowe kwiaty. Regularna, zwarta kopuła gęsto pokryta kwiatami.</p>
-                  <div class="product__meta">
-                    <span>Barwa: purpurowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Drobne, purpurowe kwiaty.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="13" data-size="drobnokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="13" data-size="drobnokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-purpose="detal">
               <div class="product__media">
-                <img src="img/odmiany/jasoda-white.jpg" alt="Chryzantema drobnokwiatowa Jasoda White w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/jasoda-white.webp" srcset="img/odmiany/jasoda-white-400.webp 400w, img/odmiany/jasoda-white.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema drobnokwiatowa Jasoda White w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Drobnokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Jasoda White</h3>
-                  <p class="product__desc">Drobne, białe kwiaty z&nbsp;kremowym środkiem. Regularna, zwarta kopuła gęsto pokryta kwiatami.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biała</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Drobne, białe kwiaty z&nbsp;kremowym środkiem.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="14" data-size="drobnokwiatowa" data-color="zolty" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="14" data-size="drobnokwiatowa" data-color="zolty" data-shape="dekoracyjny" data-purpose="detal">
               <div class="product__media">
-                <img src="img/odmiany/jasoda-yellow.jpg" alt="Chryzantema drobnokwiatowa Jasoda Yellow w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/jasoda-yellow.webp" srcset="img/odmiany/jasoda-yellow-400.webp 400w, img/odmiany/jasoda-yellow.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema drobnokwiatowa Jasoda Yellow w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Drobnokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Jasoda Yellow</h3>
-                  <p class="product__desc">Drobne, jasnożółte kwiaty. Regularna, zwarta kopuła gęsto pokryta kwiatami.</p>
-                  <div class="product__meta">
-                    <span>Barwa: żółta</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Drobne, jasnożółte kwiaty.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="15" data-size="sredniokwiatowa" data-color="fioletowy bialy" data-shape="dekoracyjny" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="15" data-size="sredniokwiatowa" data-color="fioletowy bialy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/mona-purple-white.jpg" alt="Chryzantema średniokwiatowa Mona Purple White w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/mona-purple-white.webp" srcset="img/odmiany/mona-purple-white-400.webp 400w, img/odmiany/mona-purple-white.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Mona Purple White w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Mona Purple White</h3>
-                  <p class="product__desc">Kwiat dwubarwny, purpurowo-biały, dekoracyjny. Efektowne płatki z&nbsp;jasnym obrzeżeniem.</p>
-                  <div class="product__meta">
-                    <span>Barwa: purpurowo-biała</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat purpurowo-biały, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="16" data-size="sredniokwiatowa" data-color="czerwony zolty" data-shape="dekoracyjny" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="16" data-size="sredniokwiatowa" data-color="czerwony zolty" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/mona-red-yellow.jpg" alt="Chryzantema średniokwiatowa Mona Red Yellow w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/mona-red-yellow.webp" srcset="img/odmiany/mona-red-yellow-400.webp 400w, img/odmiany/mona-red-yellow.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Mona Red Yellow w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Mona Red Yellow</h3>
-                  <p class="product__desc">Kwiat dwubarwny, czerwono-żółty, dekoracyjny. Wyrazisty kontrast barw z&nbsp;żółtym środkiem.</p>
-                  <div class="product__meta">
-                    <span>Barwa: czerwono-żółta</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat czerwono-żółty, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="17" data-size="sredniokwiatowa" data-color="bialy rozowy" data-shape="dekoracyjny" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="18" data-size="sredniokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/mona-white-pink.jpg" alt="Chryzantema średniokwiatowa Mona White Pink w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/mount-corbet.webp" srcset="img/odmiany/mount-corbet-400.webp 400w, img/odmiany/mount-corbet.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Mount Corbet w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
-                </div>
-              </div>
-              <div class="product__body">
-                <div class="product__info">
-                  <h3 class="product__title">Mona White Pink</h3>
-                  <p class="product__desc">Kwiat dwubarwny, biało-różowy, dekoracyjny. Delikatne, jasne płatki z&nbsp;różowym środkiem.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biało-różowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
-                </div>
-              </div>
-            </article>
-
-            <article class="product" data-order="18" data-size="sredniokwiatowa" data-color="bialy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
-              <div class="product__media">
-                <img src="img/odmiany/mount-corbet.jpg" alt="Chryzantema średniokwiatowa Mount Corbet w doniczce" width="800" height="600" loading="lazy">
-                <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Mount Corbet</h3>
-                  <p class="product__desc">Kwiat biały, dekoracyjny, bardzo ładny. Obfite kwitnienie i&nbsp;równa, zwarta kopuła.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biała</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat biały, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="19" data-size="wielkokwiatowa" data-color="czerwony" data-shape="kulisty" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="19" data-size="wielkokwiatowa" data-color="czerwony" data-shape="kulisty" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/nagano-rouge.jpg" alt="Chryzantema wielkokwiatowa Nagano Rouge w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/nagano-rouge.webp" srcset="img/odmiany/nagano-rouge-400.webp 400w, img/odmiany/nagano-rouge.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Nagano Rouge w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Kulisty</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Nagano Rouge</h3>
-                  <p class="product__desc">Kwiat czerwony, kulisty. Pełne kwiatostany o&nbsp;ciepłym, czerwono-miedzianym odcieniu.</p>
-                  <div class="product__meta">
-                    <span>Barwa: czerwona</span><span class="product__bullet">•</span><span>Kwiat kulisty</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat czerwony, kulisty.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="20" data-size="sredniokwiatowa" data-color="pomaranczowy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="20" data-size="sredniokwiatowa" data-color="pomaranczowy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/newport.jpg" alt="Chryzantema średniokwiatowa Newport w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/newport.webp" srcset="img/odmiany/newport-400.webp 400w, img/odmiany/newport.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Newport w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Newport</h3>
-                  <p class="product__desc">Kwiat pomarańczowo-brązowy, dekoracyjny. Ciepłe, jesienne odcienie miedzi i&nbsp;rudości.</p>
-                  <div class="product__meta">
-                    <span>Barwa: pomarańczowo-brązowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat pomarańczowo-brązowy, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="21" data-size="wielkokwiatowa" data-color="fioletowy" data-shape="igielkowy" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="21" data-size="wielkokwiatowa" data-color="fioletowy" data-shape="igielkowy" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/santosh.jpg" alt="Chryzantema wielkokwiatowa Santosh w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/santosh.webp" srcset="img/odmiany/santosh-400.webp 400w, img/odmiany/santosh.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Santosh w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Igiełkowy</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Santosh</h3>
-                  <p class="product__desc">Kwiat fioletowy, igiełkowo-rurkowy. Gęsta, puszysta korona o&nbsp;nasyconym kolorze.</p>
-                  <div class="product__meta">
-                    <span>Barwa: fioletowa</span><span class="product__bullet">•</span><span>Kwiat igiełkowy</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat fioletowy, igiełkowo-rurkowy.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="22" data-size="wielkokwiatowa" data-color="bialy" data-shape="kulisty" data-new="1" data-purpose="hurt detal">
+            <article class="product" data-order="22" data-size="wielkokwiatowa" data-color="bialy" data-shape="kulisty" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/snowball-blanc.jpg" alt="Chryzantema wielkokwiatowa Snowball Blanc w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/snowball-blanc.webp" srcset="img/odmiany/snowball-blanc-400.webp 400w, img/odmiany/snowball-blanc.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Snowball Blanc w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Kulisty</span>
-                </div>
-                <div class="product__chip-bottom">
-                  <span class="chip chip--accent"><span class="ms ms-14">new_releases</span> Nowość</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Snowball Blanc</h3>
-                  <p class="product__desc">Kwiat biały, kulisty. Duże, pełne kule kwiatostanów na&nbsp;tle ciemnozielonych liści.</p>
-                  <div class="product__meta">
-                    <span>Barwa: biała</span><span class="product__bullet">•</span><span>Kwiat kulisty</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat biały, kulisty.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="23" data-size="wielkokwiatowa" data-color="pomaranczowy zielony" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="23" data-size="wielkokwiatowa" data-color="pomaranczowy zielony" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/sunkiss-mangue.jpg" alt="Chryzantema wielkokwiatowa Sunkiss Mangue w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/sunkiss-mangue.webp" srcset="img/odmiany/sunkiss-mangue-400.webp 400w, img/odmiany/sunkiss-mangue.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Sunkiss Mangue w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Sunkiss Mangue</h3>
-                  <p class="product__desc">Kwiat pomarańczowo-zielony, dekoracyjny, piękny. Oryginalne połączenie barw.</p>
-                  <div class="product__meta">
-                    <span>Barwa: pomarańczowo-zielona</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat pomarańczowo-zielony, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="24" data-size="wielkokwiatowa" data-color="fioletowy rozowy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="24" data-size="wielkokwiatowa" data-color="fioletowy rozowy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/sunkiss-purple.jpg" alt="Chryzantema wielkokwiatowa Sunkiss Purple w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/sunkiss-purple.webp" srcset="img/odmiany/sunkiss-purple-400.webp 400w, img/odmiany/sunkiss-purple.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Sunkiss Purple w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Sunkiss Purple</h3>
-                  <p class="product__desc">Kwiat fioletowo-różowy, dekoracyjny, piękny. Duże, pełne kwiaty o&nbsp;żywej barwie.</p>
-                  <div class="product__meta">
-                    <span>Barwa: fioletowo-różowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat fioletowo-różowy, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="25" data-size="wielkokwiatowa" data-color="rozowy zielony" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="25" data-size="wielkokwiatowa" data-color="rozowy zielony" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/sunkiss-rose.jpg" alt="Chryzantema wielkokwiatowa Sunkiss Rose w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/sunkiss-rose.webp" srcset="img/odmiany/sunkiss-rose-400.webp 400w, img/odmiany/sunkiss-rose.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Sunkiss Rose w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Sunkiss Rose</h3>
-                  <p class="product__desc">Kwiat różowo-zielony, dekoracyjny, bardzo ładny. Pastelowe płatki z&nbsp;zielonkawym środkiem.</p>
-                  <div class="product__meta">
-                    <span>Barwa: różowo-zielona</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat różowo-zielony, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="26" data-size="sredniokwiatowa" data-color="fioletowy" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="26" data-size="sredniokwiatowa" data-color="fioletowy" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/warsaw.jpg" alt="Chryzantema średniokwiatowa Warsaw w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/warsaw.webp" srcset="img/odmiany/warsaw-400.webp 400w, img/odmiany/warsaw.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema średniokwiatowa Warsaw w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Średniokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Warsaw</h3>
-                  <p class="product__desc">Kwiat purpurowy, dekoracyjny. Klasyczna, głęboka barwa na&nbsp;okres Wszystkich Świętych.</p>
-                  <div class="product__meta">
-                    <span>Barwa: purpurowa</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat purpurowy, dekoracyjny.</p>
                 </div>
               </div>
             </article>
 
-            <article class="product" data-order="27" data-size="wielkokwiatowa" data-color="rozowy zielony" data-shape="dekoracyjny" data-new="0" data-purpose="hurt detal">
+            <article class="product" data-order="27" data-size="wielkokwiatowa" data-color="rozowy zielony" data-shape="dekoracyjny" data-purpose="hurt detal">
               <div class="product__media">
-                <img src="img/odmiany/woodstock-pink.jpg" alt="Chryzantema wielkokwiatowa Woodstock Pink w doniczce" width="800" height="600" loading="lazy">
+                <img src="img/odmiany/woodstock-pink.webp" srcset="img/odmiany/woodstock-pink-400.webp 400w, img/odmiany/woodstock-pink.webp 800w" sizes="(min-width: 1024px) 380px, 45vw" alt="Chryzantema wielkokwiatowa Woodstock Pink w doniczce" width="800" height="600" loading="lazy" decoding="async">
                 <div class="product__chips">
-                  <span class="chip chip--light">Wielkokwiatowa</span>
-                  <span class="chip chip--pot">Dekoracyjny</span>
+                  <span class="chip chip--primary">Dostępne w&nbsp;hurcie</span>
                 </div>
               </div>
               <div class="product__body">
                 <div class="product__info">
                   <h3 class="product__title">Woodstock Pink</h3>
-                  <p class="product__desc">Kwiat różowy o&nbsp;zielonych brzegach, oryginalny. Nietypowe, pastelowe połączenie barw.</p>
-                  <div class="product__meta">
-                    <span>Barwa: różowo-zielona</span><span class="product__bullet">•</span><span>Kwiat dekoracyjny</span>
-                  </div>
-                </div>
-                <div class="product__cta">
-                  <a class="btn-product" href="tel:+48600000000"><span class="ms ms-18">contact_support</span><span>Zapytaj o dostępność i wycenę</span></a>
+                  <p class="product__desc">Kwiat różowy o&nbsp;zielonych brzegach.</p>
                 </div>
               </div>
             </article>
 
           </div>
+          <button class="carousel__nav carousel__nav--prev" id="carousel-prev" type="button" aria-label="Przewiń odmiany w lewo"><span class="ms ms-24">chevron_left</span></button>
+          <button class="carousel__nav carousel__nav--next" id="carousel-next" type="button" aria-label="Przewiń odmiany w prawo"><span class="ms ms-24">chevron_right</span></button>
+          </div>
 
           <div class="products-empty" id="products-empty" hidden>
             <span class="ms ms-32">filter_alt_off</span>
-            <p class="products-empty__title">Brak odmian spełniających wybrane kryteria</p>
-            <p class="products-empty__text">Zmień ustawienia filtrów lub zadzwoń – chętnie doradzimy odmianę.</p>
+            <p class="products-empty__title">Brak chryzantem spełniających wybrane kryteria</p>
+            <p class="products-empty__text">Zmień ustawienia filtrów lub zadzwoń – chętnie doradzimy.</p>
             <button type="button" class="filters__apply products-empty__btn" data-reset-filters>Wyczyść filtry</button>
           </div>
 
@@ -904,39 +683,31 @@
       <div class="b2b__head">
         <span class="eyebrow eyebrow--light">Warunki Handlowe i&nbsp;Dystrybucja</span>
         <h2 class="h2 h2--light">Oferta Hurtowa – Współpraca B2B</h2>
-        <p class="b2b__lead">Najwyższej jakości chryzantemy wielkokwiatowe, drobnokwiatowe i&nbsp;cięte prosto z&nbsp;naszych wielkopolskich szklarni. Prowadzimy sprzedaż hurtową dla kwiaciarni i&nbsp;odbiorców oraz detaliczną na&nbsp;miejscu w&nbsp;gospodarstwie.</p>
+        <p class="b2b__lead">Najwyższej jakości chryzantemy średniokwiatowe i&nbsp;wielkokwiatowe prosto z&nbsp;naszych tuneli. Prowadzimy sprzedaż hurtową dla kwiaciarni i&nbsp;odbiorców. Chryzantemy drobnokwiatowe oferujemy w&nbsp;sprzedaży detalicznej na&nbsp;miejscu w&nbsp;gospodarstwie.</p>
       </div>
 
       <div class="b2b__tiles">
         <article class="tile">
           <div>
             <div class="tile__icon"><span class="ms ms-24">inventory_2</span></div>
-            <h4 class="tile__title">Minimalne zamówienie</h4>
-            <p class="tile__text">Minimalne zamówienie hurtowe już od <strong>50 sztuk</strong>, z&nbsp;pełną elastycznością miksowania odmian, wielkości mis oraz kolorów w&nbsp;jednej partii.</p>
+            <h3 class="tile__title">Minimalne zamówienie</h3>
+            <p class="tile__text">Minimalne zamówienie hurtowe już od <strong>50 sztuk</strong>, z&nbsp;pełną elastycznością miksowania odmian, wielkości kwiatów oraz kolorów w&nbsp;jednej partii.</p>
           </div>
           <div class="tile__foot"><span class="ms ms-16">tune</span><span>Miks kolorów do wyboru</span></div>
         </article>
         <article class="tile">
           <div>
             <div class="tile__icon"><span class="ms ms-24">local_shipping</span></div>
-            <h4 class="tile__title">Własny transport w&nbsp;regionie</h4>
-            <p class="tile__text">Własny transport w&nbsp;regionie – bezpieczny przewóz roślin dostosowany do wielkości zamówienia w&nbsp;promieniu do <strong>150 km</strong> od naszego gospodarstwa.</p>
+            <h3 class="tile__title">Własny transport w&nbsp;regionie</h3>
+            <p class="tile__text">Własny transport przy zamówieniach od <strong>100 sztuk</strong> – bezpieczny przewóz roślin w&nbsp;promieniu do <strong>100 km</strong> od naszego gospodarstwa.</p>
           </div>
           <div class="tile__foot"><span class="ms ms-16">directions_car</span><span>Bezpieczny transport partii</span></div>
         </article>
         <article class="tile">
           <div>
-            <div class="tile__icon"><span class="ms ms-24">storefront</span></div>
-            <h4 class="tile__title">Wygodny odbiór osobisty</h4>
-            <p class="tile__text">Wygodny odbiór bezpośrednio ze szklarni – pomoc przy sprawnym załadunku busów i&nbsp;aut dostawczych na&nbsp;terenie gospodarstwa.</p>
-          </div>
-          <div class="tile__foot"><span class="ms ms-16">check</span><span>Sprawny załadunek na&nbsp;miejscu</span></div>
-        </article>
-        <article class="tile">
-          <div>
             <div class="tile__icon"><span class="ms ms-24">event_available</span></div>
-            <h4 class="tile__title">Rezerwacje przed sezonem</h4>
-            <p class="tile__text">Gwarancja stałej, ustalonej ceny oraz 100% dostępności wybranych kwater przy wcześniejszej rezerwacji kontraktacyjnej w&nbsp;miesiącach letnich.</p>
+            <h3 class="tile__title">Rezerwacje przed sezonem</h3>
+            <p class="tile__text">Zarezerwuj wybrane odmiany chryzantem z&nbsp;wyprzedzeniem – zagwarantujemy Ci stałą, ustaloną cenę oraz dostępność kwiatów na&nbsp;wybrany termin.</p>
           </div>
           <div class="tile__foot"><span class="ms ms-16">verified_user</span><span>Pewność dostaw na&nbsp;1.11</span></div>
         </article>
@@ -947,14 +718,12 @@
           <div class="callout__icon"><span class="ms ms-32">support_agent</span></div>
           <div>
             <span class="eyebrow">Bezpośredni kontakt B2B</span>
-            <h3 class="callout__title">Skontaktuj się z&nbsp;kierownikiem produkcji</h3>
-            <p class="body-md muted">Ustal harmonogram dostaw, rezerwacje partii kwiatowych i&nbsp;dogodne warunki fakturowania.</p>
+            <h3 class="callout__title">Skontaktuj się z&nbsp;nami</h3>
+            <p class="body-md muted">Zadzwoń, aby złożyć zamówienie hurtowe, zapytać o&nbsp;dostępność odmian lub zarezerwować kwiaty.</p>
           </div>
         </div>
         <div class="callout__actions">
-          <a class="callout__phone" href="tel:+48601234567"><span class="ms ms-24">call</span><span>+48 601 234 567</span></a>
-          <a class="callout__btn" href="tel:+48601234567">Zadzwoń teraz – zamówienia hurtowe</a>
-        </div>
+          <a class="callout__phone" href="tel:+48723789751"><span class="ms ms-24">call</span><span>+48 723 789 751</span></a>        </div>
       </div>
     </div>
   </section>
@@ -964,8 +733,8 @@
     <div class="container">
       <div class="retail-head">
         <span class="eyebrow">Zakupy na&nbsp;Miejscu w&nbsp;Gospodarstwie</span>
-        <h2 class="h2">Sprzedaż Detaliczna i&nbsp;Punkt Odbioru</h2>
-        <p class="body-md muted relaxed">Zapraszamy mieszkańców okolic i&nbsp;klientów indywidualnych po świeże chryzantemy prosto ze szklarni. Wybierz rośliny osobiście w&nbsp;sercu naszego gospodarstwa.</p>
+        <h2 class="h2">Sprzedaż Detaliczna i&nbsp;Punkt Odbioru w&nbsp;Międzyborzu</h2>
+        <p class="body-md muted relaxed">Zapraszamy mieszkańców okolic i&nbsp;klientów indywidualnych po świeże chryzantemy prosto z&nbsp;tunelu. Wybierz rośliny osobiście w&nbsp;sercu naszego gospodarstwa.</p>
       </div>
 
       <div class="retail">
@@ -977,17 +746,12 @@
             </div>
             <div class="hours">
               <div class="hours__period">
-                <span class="hours__label">W szczycie sezonu (10 – 30 października):</span>
-                <div class="hours__row"><span>Poniedziałek – Sobota:</span><span class="hours__time">08:00 – 18:00</span></div>
-                <div class="hours__row"><span>Niedziele handlowe:</span><span class="hours__time">09:00 – 16:00</span></div>
+                <span class="hours__label">Sprzedaż detaliczna:</span>
+                <div class="hours__row"><span>Codziennie, także w&nbsp;niedziele:</span><span class="hours__time">08:00 – 18:00</span></div>
               </div>
               <div class="hours__period hours__period--peak">
-                <span class="hours__label">Wszystkich Świętych (31 X – 1 XI):</span>
-                <div class="hours__row"><span>Ciągła sprzedaż na&nbsp;miejscu:</span><span class="hours__time">07:00 – 19:00</span></div>
-              </div>
-              <div class="hours__period hours__period--off">
-                <span class="hours__label">Poza sezonem jesiennym:</span>
-                <p>Obsługa wyłącznie po wcześniejszym kontakcie telefonicznym.</p>
+                <span class="hours__label">Zapisy na&nbsp;kwiaty:</span>
+                <p>Zapisz się na&nbsp;wybrane kwiaty i&nbsp;odbierz je u&nbsp;nas w&nbsp;dogodnym terminie. Zapisy ruszają <strong>20 października</strong>, a&nbsp;zapisane kwiaty czekają na&nbsp;odbiór <strong>do 31 października</strong>.</p>
               </div>
             </div>
           </div>
@@ -998,13 +762,11 @@
               <h3 class="card__title">Adres Gospodarstwa</h3>
             </div>
             <p class="address">
-              Ogrodnictwo Małgorzata Łuczak<br>
-              <span class="address__street">ul. Ogrodowa 14, 62-800 Kalisz / okolice</span>
+              Ogrodnictwo Łuczak<br>
+              <span class="address__street">ul. Zielonka 19, 56-513 Międzybórz</span>
             </p>
             <div class="directions">
-              <div class="directions__item"><span class="ms ms-18">directions_car</span><span>Dogodny dojazd drogą wojewódzką, zaledwie 3 minuty od zjazdu z&nbsp;trasy głównej.</span></div>
-              <div class="directions__item"><span class="ms ms-18">signpost</span><span>Czytelne drogowskazy z&nbsp;logo gospodarstwa bezpośrednio przy skrzyżowaniu.</span></div>
-              <div class="directions__item"><span class="ms ms-18">local_parking</span><span>Duży, bezpłatny, utwardzony parking dla klientów detalicznych i&nbsp;dostawców.</span></div>
+              <div class="directions__item"><span class="ms ms-18">payments</span><span>Płatność na&nbsp;miejscu: gotówka lub BLIK.</span></div>
             </div>
           </div>
         </div>
@@ -1013,13 +775,13 @@
           <div class="card card--map">
             <div class="map">
               <!-- Mapa Google – zmień współrzędne w adresie iframe (q=szerokość,długość), aby wskazać dokładną lokalizację -->
-              <iframe class="map__frame" title="Mapa dojazdu – Ogrodnictwo Małgorzata Łuczak"
-                src="https://maps.google.com/maps?q=51.7610,18.0910&amp;z=14&amp;hl=pl&amp;output=embed"
+              <iframe class="map__frame" title="Mapa dojazdu – Ogrodnictwo Łuczak"
+                src="https://maps.google.com/maps?q=Zielonka+19,+56-513+Mi%C4%99dzyb%C3%B3rz&amp;z=14&amp;hl=pl&amp;output=embed"
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
               <div class="map__overlay">
                 <div class="map__top">
                   <div class="map__chip"><span class="map__pulse"></span><span>Punkt Odbioru Roślin</span></div>
-                  <div class="map__gps">GPS: 51.7610° N, 18.0910° E</div>
+                  <div class="map__gps">Zielonka 19, Międzybórz</div>
                 </div>
                 <div class="map__bar">
                   <div class="map__route"><span class="ms ms-22">navigation</span><span>Zjazd nr 4 • Trasa DW450</span></div>
@@ -1028,10 +790,6 @@
                   </a>
                 </div>
               </div>
-            </div>
-            <div class="map__notes">
-              <span class="map__note"><span class="ms ms-16">local_shipping</span><span>Możliwy dojazd samochodów typu TIR / Solówka</span></span>
-              <span class="map__note"><span class="ms ms-16">payments</span><span>Płatność gotówką, kartą oraz BLIK na&nbsp;miejscu</span></span>
             </div>
           </div>
         </div>
@@ -1045,41 +803,32 @@
   <div class="container footer__inner">
     <div class="footer__grid">
       <div class="footer__col">
-        <span class="footer__brand">Ogrodnictwo</span>
-        <p class="footer__caps">Małgorzata Łuczak</p>
+        <span class="footer__brand">Ogrodnictwo Łuczak</span>
         <p class="footer__text">Wieloletnie doświadczenie w&nbsp;profesjonalnej uprawie chryzantem drobnokwiatowych, wielkokwiatowych i&nbsp;średniokwiatowych. Certyfikowany paszport roślin PIORiN.</p>
       </div>
       <div class="footer__col">
-        <h4 class="footer__heading">Dane rejestrowe i&nbsp;adres</h4>
-        <p class="footer__text">ul. Ogrodowa 14<br>62-800 Kalisz / okolice<br>Woj. wielkopolskie</p>
-        <div class="footer__data">
-          <p><span class="footer__key">NIP:</span> 123-456-78-90</p>
-          <p><span class="footer__key">REGON:</span> 382910293</p>
-        </div>
+        <h2 class="footer__heading">Adres</h2>
+        <p class="footer__text">ul. Zielonka 19<br>56-513 Międzybórz<br>Woj. dolnośląskie</p>
       </div>
       <div class="footer__col">
-        <h4 class="footer__heading">Sezon i&nbsp;Zamówienia</h4>
-        <p class="footer__text"><span class="footer__key footer__key--block">Godziny w&nbsp;sezonie (wrzesień - listopad):</span>Poniedziałek – Sobota: 07:00 – 18:00<br>Niedziela (październik): 09:00 – 16:00</p>
+        <h2 class="footer__heading">Sezon i&nbsp;Zamówienia</h2>
+        <p class="footer__text"><span class="footer__key footer__key--block">Sprzedaż detaliczna:</span>Codziennie, także w&nbsp;niedziele: 08:00 – 18:00<br>Zapisy na&nbsp;kwiaty od 20 października, odbiór do 31 października</p>
         <div class="footer__sales">
-          <p class="footer__sales-label">Dział Sprzedaży Hurtowej</p>
-          <a class="footer__phone" href="tel:+48600000000">+48 600 000 000</a>
+          <p class="footer__sales-label">Hurt</p><a class="footer__phone" href="tel:+48723789751">+48 723 789 751</a><p class="footer__sales-label">Detal</p><a class="footer__phone" href="tel:+48690273223">+48 690 273 223</a>
         </div>
       </div>
       <div class="footer__col">
-        <h4 class="footer__heading">Nawigacja</h4>
+        <h2 class="footer__heading">Nawigacja</h2>
         <ul class="footer__links">
-          <li><a href="#katalog">Katalog odmian chryzantem</a></li>
+          <li><a href="#katalog">Katalog odmian</a></li>
           <li><a href="#hurt">Warunki logistyczne i&nbsp;hurtowe</a></li>
           <li><a href="#dojazd">Dojazd do gospodarstwa</a></li>
-          <li><a href="#kontakt">Formularz kontaktowy</a></li>
+          <li><a href="tel:+48723789751">Zadzwoń do nas</a></li>
         </ul>
       </div>
     </div>
     <div class="footer__bottom">
-      <p>© 2024 Ogrodnictwo Małgorzata Łuczak. Wszelkie prawa zastrzeżone. Paszport roślin PL-30/18/1234.</p>
-      <div class="footer__legal">
-        <a href="#">Polityka prywatności</a><span>•</span><a href="#">Informacja o&nbsp;paszportyzacji</a>
-      </div>
+      <p>© 2026 Ogrodnictwo Łuczak. Wszelkie prawa zastrzeżone.</p>
     </div>
   </div>
 </footer>
@@ -1092,26 +841,26 @@
       <span class="fab__status">Czynne</span>
     </div>
     <div class="fab__items">
-      <a class="fab-item fab-item--wholesale" href="tel:+48600000000">
+      <a class="fab-item fab-item--wholesale" href="tel:+48723789751">
         <div class="fab-item__icon"><span class="ms ms-20">store</span></div>
         <div class="fab-item__text">
           <span class="fab-item__name">Dział Hurtowy (B2B)</span>
           <span class="fab-item__desc">Obsługa kwiaciarni i&nbsp;partii hurtowych</span>
-          <span class="fab-item__phone">+48 600 000 000</span>
+          <span class="fab-item__phone">+48 723 789 751</span>
         </div>
         <span class="ms ms-18 fab-item__chevron">chevron_right</span>
       </a>
-      <a class="fab-item fab-item--retail" href="tel:+48601234567">
+      <a class="fab-item fab-item--retail" href="tel:+48690273223">
         <div class="fab-item__icon"><span class="ms ms-20">potted_plant</span></div>
         <div class="fab-item__text">
           <span class="fab-item__name">Sprzedaż Detaliczna</span>
-          <span class="fab-item__desc">Zakupy na&nbsp;miejscu, dostępność mis</span>
-          <span class="fab-item__phone">+48 601 234 567</span>
+          <span class="fab-item__desc">Zakupy na&nbsp;miejscu, dostępność kwiatów</span>
+          <span class="fab-item__phone">+48 690 273 223</span>
         </div>
         <span class="ms ms-18 fab-item__chevron">chevron_right</span>
       </a>
     </div>
-    <div class="fab__foot"><p>Hurt i&nbsp;odbiór osobisty w&nbsp;szklarniach • Kalisz</p></div>
+    <div class="fab__foot"><p>Hurt i&nbsp;odbiór osobisty w&nbsp;tunelach • Międzybórz</p></div>
   </div>
   <div class="fab__row">
     <button class="fab__btn" id="fab-btn" type="button" aria-label="Zadzwoń do gospodarstwa" aria-expanded="false" aria-controls="fab-panel">
@@ -1119,6 +868,23 @@
     </button>
   </div>
 </div>
+
+<!-- ============ GALERIA ODMIANY ============ -->
+<dialog class="gallery" id="gallery" aria-labelledby="gallery-title">
+  <div class="gallery__box">
+    <div class="gallery__head">
+      <h3 class="gallery__title" id="gallery-title"></h3>
+      <button class="gallery__close" id="gallery-close" type="button" aria-label="Zamknij galerię"><span class="ms ms-24">close</span></button>
+    </div>
+    <div class="gallery__stage">
+      <img class="gallery__img" id="gallery-img" src="" alt="">
+      <button class="gallery__nav gallery__nav--prev" id="gallery-prev" type="button" aria-label="Poprzednie zdjęcie" hidden><span class="ms ms-24">chevron_left</span></button>
+      <button class="gallery__nav gallery__nav--next" id="gallery-next" type="button" aria-label="Następne zdjęcie" hidden><span class="ms ms-24">chevron_right</span></button>
+      <span class="gallery__count" id="gallery-count" hidden></span>
+    </div>
+    <div class="gallery__thumbs" id="gallery-thumbs" hidden></div>
+  </div>
+</dialog>
 
 <script src="js/main.js"></script>
 </body>
