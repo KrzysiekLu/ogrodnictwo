@@ -256,7 +256,7 @@
 
   /* ---------- Pojawianie się elementów przy przewijaniu ---------- */
   var revealSelector = [
-    '.hero__content > *', '.advantage', '.catalog-head', '.filters', '.toolbar', '.product',
+    '.advantage', '.catalog-head', '.filters', '.toolbar', '.product',
     '.b2b__head', '.tile', '.callout', '.retail-head', '.retail .card', '.footer__col', '.footer__bottom'
   ].join(',');
   var revealEls = document.querySelectorAll(revealSelector);

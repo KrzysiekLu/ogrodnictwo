@@ -1175,7 +1175,6 @@ strong { font-weight: bolder; }
 /* ---------- Pojawianie się elementów przy przewijaniu ---------- */
 /* Ukrywane tylko gdy działa JS (klasa .js na <html>), więc bez JS wszystko jest widoczne */
 html.js :is(
-  .hero__content > *,
   .advantage,
   .catalog-head,
   .filters,
@@ -1410,5 +1409,5 @@ html.js :is(
 .skip-link:focus { top: 0.75rem; }
 
 .btn-hero--accent { color: var(--primary); }
-.nl-badge{position:absolute;bottom:-30px; pointer-events:none;
+.nl-badge{position:absolute !important;bottom:-30px !important; pointer-events:none !important;
 }
