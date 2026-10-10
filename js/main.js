@@ -407,6 +407,31 @@
     if (e.key === 'ArrowRight') showSlide(gState.i + 1);
   });
 
+  /* ---------- Ukrycie plakietki „Powered by Netlify” (iframe wstrzykiwany przez Netlify po załadowaniu) ---------- */
+  (function hideNetlifyBadge() {
+    var FRAME_ID = 'nl-badge-frame';
+    var styleObserver = null;
+
+    function hide(frame) {
+      if (frame.style.getPropertyValue('display') !== 'none') frame.style.setProperty('display', 'none', 'important');
+    }
+    function check() {
+      var frame = document.getElementById(FRAME_ID);
+      if (!frame) return;
+      hide(frame);
+      if (!styleObserver) {
+        styleObserver = new MutationObserver(function () { hide(frame); });
+        styleObserver.observe(frame, { attributes: true, attributeFilter: ['style'] });
+      }
+    }
+
+    check();
+    var opts = { childList: true };
+    var watcher = new MutationObserver(check);
+    watcher.observe(document.documentElement, opts);
+    watcher.observe(document.body, opts);
+  })();
+
   /* ---------- Pływający przycisk kontaktu ---------- */
   var fab = document.getElementById('fab');
   var fabBtn = document.getElementById('fab-btn');
