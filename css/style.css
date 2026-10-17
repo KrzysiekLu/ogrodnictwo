@@ -1409,3 +1409,7 @@ html.js :is(
 .skip-link:focus { top: 0.75rem; }
 
 .btn-hero--accent { color: var(--primary); }
+
+/* Plakietka „N zdjęć" na kartach odmian – podpowiada, że po kliknięciu otworzy się galeria */
+.chip--photos { background: rgba(0, 0, 0, 0.62); color: #fff; letter-spacing: 0.02em; font-weight: 600; backdrop-filter: blur(2px); }
+.product:hover .chip--photos { background: var(--primary); }
