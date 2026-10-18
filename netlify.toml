@@ -38,3 +38,6 @@
   [headers.values]
     Cache-Control = "no-cache"
     X-Robots-Tag = "noindex"
+
+[functions]
+  directory = "netlify/functions"

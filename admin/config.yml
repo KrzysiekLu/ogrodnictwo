@@ -4,8 +4,8 @@ backend:
   name: github
   repo: KrzysiekLu/ogrodnictwo
   branch: main
-  base_url: https://api.netlify.com   # logowanie GitHub przez Netlify OAuth (patrz README-admin w repozytorium)
-  auth_endpoint: auth
+  base_url: https://ogrodnictwoluczak.pl   # logowanie hasłem – patrz netlify/functions/auth.mjs
+  auth_endpoint: admin-auth
 
 locale: pl
 site_url: https://ogrodnictwoluczak.pl
