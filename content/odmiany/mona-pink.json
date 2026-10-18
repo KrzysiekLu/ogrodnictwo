@@ -1,0 +1,18 @@
+{
+  "title": "Mona Pink",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "rozowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat różowy, dekoracyjny.",
+  "photo": "/img/odmiany/mona-pink.webp",
+  "gallery": [
+    "/img/odmiany/mona-pink/1.webp",
+    "/img/odmiany/mona-pink/2.webp"
+  ]
+}

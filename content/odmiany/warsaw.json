@@ -1,0 +1,17 @@
+{
+  "title": "Warsaw",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "fioletowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat purpurowy, dekoracyjny.",
+  "photo": "/img/odmiany/warsaw.webp",
+  "gallery": [
+    "/img/odmiany/warsaw/1.webp"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Sunkiss Purple",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "fioletowy",
+    "rozowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat fioletowo-różowy, dekoracyjny.",
+  "photo": "/img/odmiany/sunkiss-purple.webp",
+  "gallery": [
+    "/img/odmiany/sunkiss-purple/1.webp",
+    "/img/odmiany/sunkiss-purple/2.webp",
+    "/img/odmiany/sunkiss-purple/3.webp",
+    "/img/odmiany/sunkiss-purple/4.webp",
+    "/img/odmiany/sunkiss-purple/5.webp",
+    "/img/odmiany/sunkiss-purple/6.webp",
+    "/img/odmiany/sunkiss-purple/7.webp"
+  ]
+}

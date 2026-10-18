@@ -1,0 +1,17 @@
+{
+  "title": "Green Parcet",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "zolty"
+  ],
+  "shape": "igielkowy",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat żółty, igiełkowy.",
+  "photo": "/img/odmiany/green-parcet.webp",
+  "gallery": [
+    "/img/odmiany/green-parcet/1.webp"
+  ]
+}

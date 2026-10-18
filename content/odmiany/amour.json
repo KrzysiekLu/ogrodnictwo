@@ -1,0 +1,19 @@
+{
+  "title": "Amour",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "bialy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat biały, dekoracyjny.",
+  "photo": "/img/odmiany/amour.webp",
+  "gallery": [
+    "/img/odmiany/amour/1.webp",
+    "/img/odmiany/amour/2.webp",
+    "/img/odmiany/amour/3.webp"
+  ]
+}

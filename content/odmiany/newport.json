@@ -1,0 +1,19 @@
+{
+  "title": "Newport",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "pomaranczowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat pomarańczowo-brązowy, dekoracyjny.",
+  "photo": "/img/odmiany/newport.webp",
+  "gallery": [
+    "/img/odmiany/newport/1.webp",
+    "/img/odmiany/newport/2.webp",
+    "/img/odmiany/newport/3.webp"
+  ]
+}

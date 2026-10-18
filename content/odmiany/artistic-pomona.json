@@ -1,0 +1,18 @@
+{
+  "title": "Artistic Pomona",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "pomaranczowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat pomarańczowy, dekoracyjny.",
+  "photo": "/img/odmiany/artistic-pomona.webp",
+  "gallery": [
+    "/img/odmiany/artistic-pomona/1.webp",
+    "/img/odmiany/artistic-pomona/2.webp"
+  ]
+}

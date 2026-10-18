@@ -1,0 +1,20 @@
+{
+  "title": "Mona Purple White",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "fioletowy",
+    "bialy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat purpurowo-biały, dekoracyjny.",
+  "photo": "/img/odmiany/mona-purple-white.webp",
+  "gallery": [
+    "/img/odmiany/mona-purple-white/1.webp",
+    "/img/odmiany/mona-purple-white/2.webp",
+    "/img/odmiany/mona-purple-white/3.webp"
+  ]
+}

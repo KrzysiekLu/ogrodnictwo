@@ -1,0 +1,19 @@
+{
+  "title": "Woodstock Pink",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "rozowy",
+    "zielony"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat różowy o zielonych brzegach.",
+  "photo": "/img/odmiany/woodstock-pink.webp",
+  "gallery": [
+    "/img/odmiany/woodstock-pink/1.webp",
+    "/img/odmiany/woodstock-pink/2.webp"
+  ]
+}

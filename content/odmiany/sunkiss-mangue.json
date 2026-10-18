@@ -1,0 +1,22 @@
+{
+  "title": "Sunkiss Mangue",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "pomaranczowy",
+    "zielony"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat pomarańczowo-zielony, dekoracyjny.",
+  "photo": "/img/odmiany/sunkiss-mangue.webp",
+  "gallery": [
+    "/img/odmiany/sunkiss-mangue/1.webp",
+    "/img/odmiany/sunkiss-mangue/2.webp",
+    "/img/odmiany/sunkiss-mangue/3.webp",
+    "/img/odmiany/sunkiss-mangue/4.webp",
+    "/img/odmiany/sunkiss-mangue/5.webp"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Snowball Blanc",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "bialy"
+  ],
+  "shape": "kulisty",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat biały, kulisty.",
+  "photo": "/img/odmiany/snowball-blanc.webp",
+  "gallery": [
+    "/img/odmiany/snowball-blanc/1.webp",
+    "/img/odmiany/snowball-blanc/2.webp"
+  ]
+}

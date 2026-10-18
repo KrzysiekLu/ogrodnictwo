@@ -1,0 +1,18 @@
+{
+  "title": "Cure Purple",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "fioletowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat purpurowy, dekoracyjny.",
+  "photo": "/img/odmiany/cure-purple.webp",
+  "gallery": [
+    "/img/odmiany/cure-purple/1.webp",
+    "/img/odmiany/cure-purple/2.webp"
+  ]
+}

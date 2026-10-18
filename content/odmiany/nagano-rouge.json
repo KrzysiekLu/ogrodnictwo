@@ -1,0 +1,22 @@
+{
+  "title": "Nagano Rouge",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "czerwony"
+  ],
+  "shape": "kulisty",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat czerwony, kulisty.",
+  "photo": "/img/odmiany/nagano-rouge.webp",
+  "gallery": [
+    "/img/odmiany/nagano-rouge/1.webp",
+    "/img/odmiany/nagano-rouge/2.webp",
+    "/img/odmiany/nagano-rouge/3.webp",
+    "/img/odmiany/nagano-rouge/4.webp",
+    "/img/odmiany/nagano-rouge/5.webp",
+    "/img/odmiany/nagano-rouge/6.webp"
+  ]
+}

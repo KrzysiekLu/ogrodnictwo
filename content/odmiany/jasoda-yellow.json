@@ -1,0 +1,18 @@
+{
+  "title": "Jasoda Yellow",
+  "size": "drobnokwiatowa",
+  "colors": [
+    "zolty"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "detal"
+  ],
+  "description": "Drobne, jasnożółte kwiaty.",
+  "photo": "/img/odmiany/jasoda-yellow.webp",
+  "gallery": [
+    "/img/odmiany/jasoda-yellow/1.webp",
+    "/img/odmiany/jasoda-yellow/2.webp",
+    "/img/odmiany/jasoda-yellow/3.webp"
+  ]
+}

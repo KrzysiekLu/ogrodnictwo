@@ -1,0 +1,21 @@
+{
+  "title": "Intrepid",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "bialy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat kremowy, dekoracyjny.",
+  "photo": "/img/odmiany/intrepid.webp",
+  "gallery": [
+    "/img/odmiany/intrepid/1.webp",
+    "/img/odmiany/intrepid/2.webp",
+    "/img/odmiany/intrepid/3.webp",
+    "/img/odmiany/intrepid/4.webp",
+    "/img/odmiany/intrepid/5.webp"
+  ]
+}

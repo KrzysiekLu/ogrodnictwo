@@ -1,0 +1,17 @@
+{
+  "title": "Alaka Yellow",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "zolty"
+  ],
+  "shape": "igielkowy",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat żółty, igiełkowy.",
+  "photo": "/img/odmiany/alaka-yellow.webp",
+  "gallery": [
+    "/img/odmiany/alaka-yellow/1.webp"
+  ]
+}

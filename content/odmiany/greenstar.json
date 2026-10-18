@@ -1,0 +1,20 @@
+{
+  "title": "Greenstar",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "bialy",
+    "zielony"
+  ],
+  "shape": "kulisty",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat biały o zielonych brzegach, kulisty.",
+  "photo": "/img/odmiany/greenstar.webp",
+  "gallery": [
+    "/img/odmiany/greenstar/1.webp",
+    "/img/odmiany/greenstar/2.webp",
+    "/img/odmiany/greenstar/3.webp"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Santosh",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "fioletowy"
+  ],
+  "shape": "igielkowy",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat fioletowy, igiełkowo-rurkowy.",
+  "photo": "/img/odmiany/santosh.webp",
+  "gallery": [
+    "/img/odmiany/santosh/1.webp",
+    "/img/odmiany/santosh/2.webp",
+    "/img/odmiany/santosh/3.webp",
+    "/img/odmiany/santosh/4.webp",
+    "/img/odmiany/santosh/5.webp"
+  ]
+}

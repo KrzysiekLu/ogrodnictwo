@@ -1,0 +1,78 @@
+# Panel edycji oferty (Sveltia CMS, zgodny z Decap CMS).
+# Zmiany zapisywane są jako commity w repozytorium GitHub; Netlify sam przebudowuje stronę.
+backend:
+  name: github
+  repo: KrzysiekLu/ogrodnictwo
+  branch: main
+  base_url: https://api.netlify.com   # logowanie GitHub przez Netlify OAuth (patrz README-admin w repozytorium)
+  auth_endpoint: auth
+
+locale: pl
+site_url: https://ogrodnictwoluczak.pl
+display_url: https://ogrodnictwoluczak.pl
+logo_url: /img/logo.webp
+
+media_folder: img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: odmiany
+    label: Odmiany chryzantem
+    label_singular: odmianę
+    folder: content/odmiany
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}} – {{size}}"
+    sortable_fields: [title]
+    fields:
+      - { name: title, label: Nazwa odmiany, widget: string, hint: "Np. Alaka White. Kolejność na stronie jest zawsze alfabetyczna." }
+      - name: photo
+        label: Zdjęcie główne (na karcie)
+        widget: image
+        hint: "Wgraj zwykłe zdjęcie – zostanie samo zmniejszone i przycięte do formatu karty."
+      - name: gallery
+        label: Dodatkowe zdjęcia (po kliknięciu w odmianę)
+        widget: image
+        multiple: true
+        required: false
+        hint: "Pojawią się w galerii. Liczba zdjęć na karcie zaktualizuje się sama."
+      - name: size
+        label: Wielkość kwiatu
+        widget: select
+        options:
+          - { label: Drobnokwiatowa, value: drobnokwiatowa }
+          - { label: Średniokwiatowa, value: sredniokwiatowa }
+          - { label: Wielkokwiatowa, value: wielkokwiatowa }
+      - name: colors
+        label: Barwa kwiatu (można kilka)
+        widget: select
+        multiple: true
+        options:
+          - { label: Biały / Kremowy, value: bialy }
+          - { label: Żółty, value: zolty }
+          - { label: Pomarańczowy / Miedziany, value: pomaranczowy }
+          - { label: Czerwony, value: czerwony }
+          - { label: Różowy, value: rozowy }
+          - { label: Purpurowy / Fioletowy, value: fioletowy }
+          - { label: Z zielonym akcentem, value: zielony }
+      - name: shape
+        label: Kształt kwiatu
+        widget: select
+        options:
+          - { label: Igiełkowy, value: igielkowy }
+          - { label: Kulisty, value: kulisty }
+          - { label: Stokrotkowy, value: stokrotkowy }
+          - { label: Dekoracyjny, value: dekoracyjny }
+      - { name: description, label: Krótki opis, widget: string, hint: "Np. Kwiat biały, igiełkowy." }
+      - name: purposes
+        label: Gdzie dostępna
+        widget: select
+        multiple: true
+        default: [hurt, detal]
+        options:
+          - { label: Hurt (kwiaciarnie), value: hurt }
+          - { label: Detal (u nas w gospodarstwie), value: detal }

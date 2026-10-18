@@ -1,0 +1,23 @@
+{
+  "title": "Sunkiss Rose",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "rozowy",
+    "zielony"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat różowo-zielony, dekoracyjny.",
+  "photo": "/img/odmiany/sunkiss-rose.webp",
+  "gallery": [
+    "/img/odmiany/sunkiss-rose/1.webp",
+    "/img/odmiany/sunkiss-rose/2.webp",
+    "/img/odmiany/sunkiss-rose/3.webp",
+    "/img/odmiany/sunkiss-rose/4.webp",
+    "/img/odmiany/sunkiss-rose/5.webp",
+    "/img/odmiany/sunkiss-rose/6.webp"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Mona Red Yellow",
+  "size": "sredniokwiatowa",
+  "colors": [
+    "czerwony",
+    "zolty"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat czerwono-żółty, dekoracyjny.",
+  "photo": "/img/odmiany/mona-red-yellow.webp",
+  "gallery": [
+    "/img/odmiany/mona-red-yellow/1.webp",
+    "/img/odmiany/mona-red-yellow/2.webp",
+    "/img/odmiany/mona-red-yellow/3.webp",
+    "/img/odmiany/mona-red-yellow/4.webp"
+  ]
+}

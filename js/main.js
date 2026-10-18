@@ -296,8 +296,7 @@
   }
 
   /* ---------- Galeria odmiany (modal) ---------- */
-  // Dodatkowe zdjęcia: img/odmiany/<nazwa-zdjecia-glownego>/1.webp, 2.webp, ... (do 12, wykrywane automatycznie)
-  var GALLERY_MAX = 12;
+  // Dodatkowe zdjęcia podaje atrybut data-gallery karty (generowany z content/odmiany/*.json przez build.mjs)
   var gallery = document.getElementById('gallery');
   var gImg = document.getElementById('gallery-img');
   var gPrev = document.getElementById('gallery-prev');
@@ -305,8 +304,7 @@
   var gCount = document.getElementById('gallery-count');
   var gThumbs = document.getElementById('gallery-thumbs');
   var gTitle = document.getElementById('gallery-title');
-  var gState = { imgs: [], i: 0, title: '', token: 0 };
-  var gCache = {};
+  var gState = { imgs: [], i: 0, title: '' };
 
   function showSlide(i) {
     var n = gState.imgs.length;
@@ -338,45 +336,15 @@
     });
   }
 
-  function probeExtras(slug, token, imgs, done) {
-    var n = 1;
-    (function next() {
-      if (token !== gState.token) return;
-      if (n > GALLERY_MAX) { done(); return; }
-      var src = 'img/odmiany/' + slug + '/' + n + '.webp';
-      var probe = new Image();
-      probe.onload = function () {
-        if (token !== gState.token) return;
-        imgs.push(src);
-        n++;
-        var cur = gState.i;
-        renderGalleryControls();
-        showSlide(cur);
-        next();
-      };
-      probe.onerror = function () { done(); };
-      probe.src = src;
-    })();
-  }
-
   function openGallery(p) {
     var main = p.querySelector('.product__media img').getAttribute('src');
-    var slug = main.replace(/^.*\//, '').replace(/\.[^.]+$/, '');
     gState.title = p.querySelector('.product__title').textContent;
-    gState.token++;
     gTitle.textContent = gState.title;
-
-    var cached = gCache[slug];
-    gState.imgs = cached ? cached.imgs : [main];
+    gState.imgs = [main].concat(p.dataset.gallery ? p.dataset.gallery.split('|') : []);
     renderGalleryControls();
     showSlide(0);
     if (!gallery.open) gallery.showModal();
     gallery.querySelector('.gallery__close').focus();
-
-    if (!cached) {
-      var imgs = gState.imgs;
-      probeExtras(slug, gState.token, imgs, function () { gCache[slug] = { imgs: imgs }; });
-    }
   }
 
   products.forEach(function (p) {
@@ -400,7 +368,6 @@
   gNext.addEventListener('click', function () { showSlide(gState.i + 1); });
   document.getElementById('gallery-close').addEventListener('click', function () { gallery.close(); });
   gallery.addEventListener('click', function (e) { if (e.target === gallery) gallery.close(); });
-  gallery.addEventListener('close', function () { gState.token++; });
   gallery.addEventListener('keydown', function (e) {
     if (gState.imgs.length < 2) return;
     if (e.key === 'ArrowLeft') showSlide(gState.i - 1);

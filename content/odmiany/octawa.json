@@ -1,0 +1,17 @@
+{
+  "title": "Octawa",
+  "size": "wielkokwiatowa",
+  "colors": [
+    "fioletowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Kwiat liliowy, dekoracyjny.",
+  "photo": "/img/odmiany/octawa.webp",
+  "gallery": [
+    "/img/odmiany/octawa/1.webp"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Jasoda Mix",
+  "size": "drobnokwiatowa",
+  "colors": [
+    "zolty",
+    "bialy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "hurt",
+    "detal"
+  ],
+  "description": "Mieszanka kolorów, kwiat drobny.",
+  "photo": "/img/odmiany/jasoda-mix.webp",
+  "gallery": [
+    "/img/odmiany/jasoda-mix/1.webp"
+  ]
+}

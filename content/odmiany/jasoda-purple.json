@@ -1,0 +1,18 @@
+{
+  "title": "Jasoda Purple",
+  "size": "drobnokwiatowa",
+  "colors": [
+    "fioletowy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "detal"
+  ],
+  "description": "Drobne, purpurowe kwiaty.",
+  "photo": "/img/odmiany/jasoda-purple.webp",
+  "gallery": [
+    "/img/odmiany/jasoda-purple/1.webp",
+    "/img/odmiany/jasoda-purple/2.webp",
+    "/img/odmiany/jasoda-purple/3.webp"
+  ]
+}

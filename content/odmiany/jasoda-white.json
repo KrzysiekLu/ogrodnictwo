@@ -1,0 +1,18 @@
+{
+  "title": "Jasoda White",
+  "size": "drobnokwiatowa",
+  "colors": [
+    "bialy"
+  ],
+  "shape": "dekoracyjny",
+  "purposes": [
+    "detal"
+  ],
+  "description": "Drobne, białe kwiaty z kremowym środkiem.",
+  "photo": "/img/odmiany/jasoda-white.webp",
+  "gallery": [
+    "/img/odmiany/jasoda-white/1.webp",
+    "/img/odmiany/jasoda-white/2.webp",
+    "/img/odmiany/jasoda-white/3.webp"
+  ]
+}
